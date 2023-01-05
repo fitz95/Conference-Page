@@ -31,9 +31,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Conference page- <a name="about-project"></a>
+# 📖 Gamezone Event page- <a name="about-project"></a>
 
-**Conference page-** is a Web App that shows a conference page.
+**Gamerzone Event page-** is a Web App that shows the date of the next Gamerzone Event.
 
 ## 🛠 Built With <a name="built-with"></a>
 VS Code
@@ -65,9 +65,9 @@ VS Code
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You would be able see later a Live Version of this Portfolio Page deployed with Github pages  below
+You would be able see later a Live Version of this Gamerzone Page deployed with Github pages  below
 
-**git https://fitz95.github.io/Conference-Page/.**
+**git https://fitz95.github.io/gamerzone-Page/.**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,7 +167,8 @@ If you like this project follow me
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank the Microverse team
+I would like to thank the Microverse team and also 
+I would also like to acknowledge the design of Cindy Chin who helped me build this page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
