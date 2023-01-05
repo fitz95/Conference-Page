@@ -449,7 +449,9 @@ body {
 
   .menuitemsflex {
     display: flex;
-    gap: 30px;
+    gap: 35px;
+    align-items: baseline;
+    width: 60%;
   }
 
   .firstheader {
@@ -795,5 +797,12 @@ body {
     display: flex;
     gap: 2%;
     justify-content: center;
+  }
+
+  .menu-button {
+    border: 3px solid #ec5242;
+    padding: 8px 8px;
+    background-color: white;
+    color: #ec5242;
   }
 }
