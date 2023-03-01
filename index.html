@@ -1,26 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gamerzone Event App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Portfolio Site</title>
-  <link rel="stylesheet" href="./style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Playfair Display" rel="stylesheet" />
-  <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
-  <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-</head>
-
-<body>
+  <body>
+    <div class="maindiv">
+      <header>
+        <nav class="desktop social-bar">
+          <div class="social-barflex">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <p>English</p>
+            <p>My Page</p>
+            <p>Logout</p>
+          </div>
+        </nav>
+        <nav class="nav">
+          <div class="mobile-nav  mobile">
+          <button class="hamburger-menu">
+            <i class="fa-sharp fa-solid fa-bars fa-3x" id="hamburgericon"></i>
+          </button>
+         </div>
+        </nav>
+        <div id="myNav" class="overlay mobile">
+          <div class="mobile-menu-navbar">
+            <a href="javascript:void(0)" class="closeicon"><i class="closeIcon material-icons  fa-3x"
+                id="close-icon">close</i></a>
+          </div>
+          <div class="overlay-content">
+            <a href="about.html" onclick="closeNav()">About</a>
+            <a href="#project-title" onclick="closeNav()">Program</a>
+            <a href="#about" onclick="closeNav()">Join</a>
+            <a href="#form" onclick="closeNav()">Sponsor</a>
+            <a href="#form" onclick="closeNav()">News</a>
+          </div>
+        </div>
+        <div class="desktop">
+        <div class="desktopmenu">
+          <div>
+            <img 
+              src="./assets/img/gamerzonefooter.png"
+              alt="project1"
+              class="desktopmenuimg"
+            />
+          </div>
+          <div class="menuitemsflex">
+            <a href="about.html">About</a>
+            <a href="#project-title">Program</a>
+            <a href="#about">Join</a>
+            <a href="#form">Sponsor</a>
+            <a href="#form">News</a>
+            <button class="menu-button">BOOK EVENT</button>
+          </div>
+        </div>
+      </div>
+      </header>      
+      <main>
+        <section class="mobile-view leftpad" id="">
+          <div>
+            <p class="firstheader">"Hello Gamers Around The Globe"</p>
+            <h1 class="secondheader">GAMERSZONE ANNUAL EVENT MAINZ 2022</h1>
+          </div>
+          <div class="paragraph-mobile">
+            <p>An annual gathering of all the best gamers every years, meet, challenge
+              learn from the leading Gamers and added tips how to make money by being a gamer. 
+            </p>
+          </div>
+          <div>
+            <h1 class="thirdheader">2022.10.14(THUR) ~ 16(FRI)</h1>
+            <p class="secondparagraph">
+              The next gamerzone event that will be held at Mainz will feature many 
+              activities at the Mainz center  as well as meeting renowned gamers live.
+            </p>
+          </div>
+        </section>
+        <section class="program">
+          <div>
+            <h1 class="programmain">Main Program</h1>
+            <hr class="new4">
+          </div>
+          <div class="programactivities">
+            <div class="programflex">
+              <i class="fa fa-gamepad fa-3x" aria-hidden="true"></i>
+              <div class="programh2"><h3>Games</h3></div>
+              <p>In our program there will be much food to eat and share with friends
+                In our program there will 
+              </p>
+            </div>
+            <div class="programflex">
+              <i class="fa fa-meetup fa-3x" aria-hidden="true"></i>
+              <div class="programh2"><h3>Online gaming</h3></div>
+              <p>In our program there will be much food to eat and share with friends
+                In our program there will 
+              </p>
+            </div>
+            <div class="programflex">
+              <i class="fa fa-grav fa-3x" aria-hidden="true"></i>
+               <div class="programh2"><h3>Virtual Reality</h3></div>
+              <p>In our program there will be much food to eat and share with friends
+                In our program there will be 
+              </p>
+            </div>
+            <div class="programflex">
+              <i class="fa fa-imdb fa-3x" aria-hidden="true"></i>
+              <div class="programh2"><h3>Movies</h3></div>
+              <p>In our program there will be much food to eat and share with friends
+                In our program there will be 
+              </p>
+            </div>
+            <div class="programflex">
+              <i class="fa fa-pied-piper-alt fa-3x" aria-hidden="true"></i>
+              <div class="programh2"><h3>Monster</h3></div>
+              <p>In our program there will be much food to eat and share with friends
+                In our program there will be much 
+            </div>
+            <div class="programflex">
+              <i class="fa fa-empire fa-3x" aria-hidden="true"></i>
+              <div class="programh2"><h3>Empire</h3></div>
+              <p>In our program there will be much food to eat and share with friends
+                In our program there will be much 
+            </div>
+          </div>
+          <button class="programbtn">JOIN GAMERZONE EVENT 2022 </button>
+        </section>
+        <section class="presenters">
+            <h1 class="presenterh1">Hosting Gamers</h1>
+            <hr class="new4">
+            <div id="speakers">
+            </div>
+        </section>
+        <section class="partner">
+          <h3 class="summit-infoh3" id="h3partner">Partner</h3>
+          <hr class="new4" />
   
-  <script type="text/javascript" src="myScript.js"></script>
-</body>
+          <div class="partnerflex">
+              <img
+                src="./assets/img/mozilla.png"
+                alt="project1"
+                class="partnerimage"
+              />
+              <img
+              src="./assets/img/google.png"
+              alt="project1"
+              class="partnerimage"
+              />
+              <img
+                src="./assets/img/nintendo.png"
+                alt="project1"
+                class="partnerimage"
+              />
+              <img
+                src="./assets/img/PS5_logo.png"
+                alt="project1"
+                class="partnerimage"
+              />
+              <img
+                src="./assets/img/xbox2.png"
+                alt="project1"
+                class="partnerimage"
+              />
+          </div>
+  
+          </section>
+          <footer>
+              <div class="footerfloat">
+                  <img
+                src="./assets/img/gamerzonefooter.png"
+                alt="project1"
+                class="footerimg"
+              />
+              <p class="footerparagraph">2019 Gamerzone Event Mainz <br>
+                  All possible rights reserved
+               </p>
+              </div>
+          </footer>
+      </main>
+    </div>
 
+    <script type="text/javascript" src="myScript.js"></script>
+  </body>
 </html>
